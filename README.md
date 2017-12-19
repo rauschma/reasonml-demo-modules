@@ -1,18 +1,22 @@
-# Basic Reason Template
+# ReasonML demo: modules
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+Installation (no global installs necessary):
 
-# Build
+```text
+cd reasonml-demo-modules/
+npm install
 ```
-npm run build
-```
 
-# Build + Watch
+Automatic compilation:
 
-```
+```text
+cd reasonml-demo-modules/
 npm run watch
 ```
 
+Run one of the files:
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+```text
+cd reasonml-demo-modules/
+node src/HelloWorld.bs.js
+```
