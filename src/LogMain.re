@@ -1,7 +1,9 @@
-let () = Log.make()
-  |> Log.logStr("Hello")
-  |> Log.logStr("everyone")
-  |> Log.print;
+let () = Log.(
+  make()
+    |> logStr("Hello")
+    |> logStr("everyone")
+    |> print
+);
 
 /* Output:
 Hello
