@@ -1,4 +1,4 @@
-module LogWithDate {
+module LogWithDate = {
   include Log;
   let logStrWithDate = (str: string, log: t) => {
     let dateStr = Js.Date.toISOString(Js.Date.make());
